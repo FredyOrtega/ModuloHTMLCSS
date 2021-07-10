@@ -1,0 +1,46 @@
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+nav {
+    background-color:#33beff;
+    padding: 30px;
+    color: #fff
+    ;
+}
+.btn-header-style {
+      color: rgb(250, 243, 243);
+  background-color: rgb(52, 168, 184);
+  padding: 10px;
+  border: 0;
+  border-radius: 5px;
+  margin-top: 50px; /*espaciado hacia arriba*/
+
+
+
+}
+.overlay-div{
+    background-color: black;
+
+}
+.header-container{
+background: blue;
+display: flex;
+height: 800px;
+justify-content: center;
+align-items: center;
+flex-direction: column;/*centrar de manera vertical*/
+color: rgb(228, 228, 228);
+
+}
+
+.bg-header{
+    background-image: url("./img/burger-header.jpg");
+    background-repeat: no-repeat;/*para que la imagen no se repita cuande quede pequeña*/
+    background-size: cover; /*ajustar el anchode la imagen*/
+    background-position-y:center ; /*y es vertical y x horizontal*/
+    opacity: 0.4;
+}
