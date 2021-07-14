@@ -1,0 +1,30 @@
+.circulo{
+  width: 200px;
+  height: 200px;
+    background-color: green;
+    border-radius: 100%;
+}
+.rectangulo{
+width: 800px;
+height: 200px;
+background-color: blue;
+}
+.triangulo{
+
+border-top: 100px solid transparent;
+border-left: 1000px solid transparent;
+border-right: 1000px solid transparent;
+border-bottom: solid rgb(83, 7, 83) 80px;
+}
+.area-triangulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.rombo{
+
+}
+
