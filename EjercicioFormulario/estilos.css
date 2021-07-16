@@ -22,7 +22,7 @@
     padding: 4rem;
     width: 30%;
     border-radius: 2%;
-    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.6);
     background: rgba(245, 243, 243, 0.863);
     
   }
@@ -39,7 +39,9 @@
     padding: 0.4rem;
     margin-top: 0.2rem;
   }
-  
+  .textarea{
+    margin-top: 0.5rem;
+  }
   .check-container {
     margin-top: 0.5rem;
   }
@@ -50,6 +52,10 @@
   .radio-container{
     margin-top: 0.5rem;
   }
+
+.radio-container fieldset{
+  border-radius: 0.4rem;
+}
   .btn-login-container {
     margin-top: 2rem;
     display: flex;
