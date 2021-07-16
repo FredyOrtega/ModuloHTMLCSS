@@ -46,6 +46,10 @@
   .checkbox-container {
     margin-top: 0.5rem;
   }
+
+  .radio-container{
+    margin-top: 0.5rem;
+  }
   .btn-login-container {
     margin-top: 2rem;
     display: flex;
